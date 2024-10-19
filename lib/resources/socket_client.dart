@@ -1,3 +1,5 @@
 import 'package:socket_io_client/socket_io_client.dart';
 
-class SocketClient {}
+class SocketClient {
+  final io.Socket socket;
+}
